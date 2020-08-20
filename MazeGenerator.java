@@ -1,15 +1,10 @@
 import processing.core.PApplet;
-
-import java.util.ArrayDeque;
 import java.util.Iterator;
 import java.util.LinkedList;
-import java.util.Stack;
 
 /**
  * @author grace
- * 
  * Completed August 16, 2020
- *
  */
 
 public class MazeGenerator extends PApplet {
@@ -24,7 +19,6 @@ public class MazeGenerator extends PApplet {
 	
 	public static void main(String[] args) {
 		PApplet.main("MazeGenerator");
-
 	}
 	
 	public void settings() {
